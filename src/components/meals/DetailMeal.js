@@ -53,7 +53,7 @@ const DetailMeal = () => {
                                     </div>
                                     <div>
                                         <h5>Instructions:</h5>
-                                        <p>{strInstructions}</p>
+                                        <p className="text-description">{strInstructions}</p>
                                         <h5>Area food: {strArea}</h5>
                                     </div>
                                 </div>

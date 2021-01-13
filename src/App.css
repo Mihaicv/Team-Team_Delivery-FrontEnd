@@ -1,5 +1,5 @@
 body {
-  background: url('background1.jpg') no-repeat fixed center center !important;
+  background: url('background2.jpg') no-repeat fixed center center !important;
   background-size: cover !important;
   background-color: #f7f7f7 !important;
   z-index: -1;
@@ -173,6 +173,9 @@ body {
   -webkit-text-decoration-line: underline; /* Safari */
   text-decoration-line: underline;
 }
+.text-description{
+  color: #f7f7f7;
+}
 
 .favorites-meals {
   padding-top: 3rem;
@@ -192,6 +195,7 @@ body {
   border-radius: 3%;
   transition: 0.3s;
   width: 80%;
+  border: #cce2e9 1px solid;
 }
 
 #main {
